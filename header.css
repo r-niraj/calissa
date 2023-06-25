@@ -3,14 +3,13 @@
 
 header{
     background: #ffffff;
-    box-shadow: 0 2px 7px 0px #00000024;
     padding: 9px 0;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 5%;
+    margin: 0 4%;
 }
 
 .header .leftSection{
@@ -26,11 +25,11 @@ header{
 }
 
 .gaLogo img{
-    width: 120px;
+    width: 100px;
 }
 
 .calissaLogo img{
-    width: 96px;
+    width: 82px;
 }
 
 .header ul.navigation{
@@ -64,7 +63,7 @@ header{
 
 .header .hamburger{
    background-image: url('img/HamIco.svg');
-   width: 35px;
+   width: 30px;
    height: 27px;
    margin-left: 20px;
    cursor: pointer;
@@ -75,5 +74,5 @@ header.active__menu{
     position: sticky;
     top: 0;
     transform: translateY(0);
-    transition: 0.5s all ease-in-out;
+    transition: 0.5s all cubic-bezier(0.68, 0.16, 0.01, 0.8);
 }
