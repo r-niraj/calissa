@@ -7,7 +7,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans'
 }
-
+body{
+    overflow-x: hidden;
+}
 .contentWrappper{
     width: 100%;
     height: 100vh;
@@ -76,6 +78,15 @@
     font-size: 36px;
     font-family: unbounded;
     font-weight: 100;
+}
+
+.titleTxtLocation{
+    font-size: 18px;
+    font-family: unbounded;
+}
+
+.descr{
+    font-size: 18px;
 }
 
 .sixtyFortyWrapper .childTwo{
@@ -174,4 +185,134 @@ button.readMore{
 
 .swimmingPool .logo img {
     width: 150px;
+}
+
+.locationBlocks{
+    padding: 0 4%;
+    margin-bottom: 70px;
+}
+
+.locationBlocks .rowWrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    margin-bottom: 34px;
+}
+
+.locationBlocks .rowWrapper .item{
+    background: #EAECE3;
+    border: 1px solid #B0B59E;
+    padding: 15px 39px;
+    border-radius: 30px;
+    flex: 1 1 0;
+    line-height: 32px;
+}
+
+.embedMap {
+    width: 100%;
+    height: 650px;
+    background: #96B7A8;
+    margin-bottom: 70px;
+}
+
+
+.locationTxt i {
+    font-weight: 600;
+    transform: rotate(-45deg);
+    margin-left: 10px;
+}
+
+.mapContainer .txtBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: flex-end;
+}
+
+.mapContainer {
+    padding: 0 4%;
+    padding-top: 60px;
+    position: relative;
+}
+
+.mapContainer .locationTxt {
+    background: #EAECE3;
+    padding: 11px 17px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.txtBlock p,
+.finAssis p{
+    font-family: unbounded;
+    font-size: 20px;
+}
+
+
+.mapBlock {
+    width: 100%;
+    height: 450px;
+    background: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.finAssis{
+    margin: 0 4%;
+    text-align: center;
+    margin-bottom: 70px;
+    background: #EAECE3;
+    padding: 50px 77px;
+    border-radius: 45px;
+}
+
+.logoWrapper{
+    margin-top: 80px;
+    display: flex;
+    column-gap: 90px;
+    justify-content: space-between;
+}
+
+.HamMenuWrapper{
+    width: 30%;
+    height: 100vh;
+    background: #BFDDCF;
+    position: fixed;
+    right: 0;
+    padding: 20px;
+    color: #fff;
+    z-index: 12;
+    /* border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px; */
+    transform: translateX(100%);
+    transition: 0.8s all cubic-bezier(0.81, -0.14, 0, 1.33);
+}
+
+.fa-times-thin{
+    right: 4%;
+    color: #000;
+    position: absolute;
+    cursor: pointer;
+}
+
+.fa-times-thin:before {
+	content: '\00d7';
+}
+
+.menuItems{
+    padding: 30px;
+    color: #000;
+    margin-top: 30px;
+}
+
+.leftBlurred{
+    width: 70%;
+    height: 100vh;
+    position: fixed;
+    right: 100%;
+    z-index: 12;
+    transform: translateX(100%);
+    background-color: rgba(0,0,0, 0.4);
+    display: none;
+    transition: 0.3s all ease-in-out;
 }

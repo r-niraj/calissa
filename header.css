@@ -4,6 +4,7 @@
 header{
     background: #ffffff;
     padding: 9px 0;
+    z-index: 9 !important;
 }
 .header{
     display: flex;
