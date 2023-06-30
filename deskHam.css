@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Unbounded:wght@200;300;400;500;600&display=swap');
+
+.HamMenuWrapper{
+    width: 30%;
+    height: 100vh;
+    background: #BFDDCF;
+    position: fixed;
+    right: 0;
+    padding: 20px;
+    color: #fff;
+    z-index: 12;
+    transform: translateX(100%);
+    transition: 0.8s all cubic-bezier(0.81, -0.14, 0, 1.33);
+}
+
+.fa-times-thin{
+    right: 4%;
+    color: #000;
+    position: absolute;
+    cursor: pointer;
+}
+
+.fa-times-thin:before {
+	content: '\00d7';
+}
+
+.menuItems{
+    padding: 30px;
+    color: #000;
+    margin-top: 30px;
+}
+
+.menuItems ul{
+    list-style-type: none;
+    font-family: 'Unbounded' !important;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.menuItems ul li{
+    margin: 15px 0;
+    transition: 0.2s all ease-in-out;
+    padding-left: 5px;
+}
+
+.menuItems ul li:hover{
+    border-left: 5px solid #000;
+    padding-left: 15px;
+}
+
+.menuItems ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.leftBlurred{
+    width: 70%;
+    height: 100vh;
+    position: fixed;
+    right: 100%;
+    z-index: 12;
+    transform: translateX(100%);
+    background-color: rgba(0,0,0, 0.4);
+    display: none;
+    transition: 0.3s all ease-in-out;
+}
+
+
