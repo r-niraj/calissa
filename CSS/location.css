@@ -7,24 +7,6 @@
     box-sizing: border-box;
 }
 
-.sliderCanvas{
-    width: 100%;
-    height: calc(100vh / 2.5);
-    background: url('../Location/1.jpg');
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-}
-
-.sliderCanvas p{
-    font-size: 40px;
-    font-family: Unbounded;
-    color: #fff;
-    font-weight: 300;
-}
-
 .textContenWarpper{
     margin: 65px 4%;
 }
