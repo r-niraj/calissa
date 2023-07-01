@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.spdTxt{
+    font-family: 'unbounded';
+    font-size: 20px;
+    margin: 0 4%;
+    margin-bottom: 70px;
+}
+
+
+.tableDiv{
+    margin: 0 4%;
+}
+
+table.spdTable{
+    width: 85%;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+table.spdTable,
+table.spdTable tr th,
+table.spdTable tr td{
+    font-family: 'open sans';
+    text-align: left;
+}
+
+table.spdTable tr th,
+table.spdTable tr td{
+    padding: 40px 30px;
+    background: #EAECE3;
+    border: 1px solid #B0B59E;
+}
+
+table.spdTable thead tr th:first-child{
+    border-top-left-radius: 50px;
+}
+table.spdTable thead tr th:last-child{
+    border-top-right-radius: 50px;
+}
+table.spdTable tbody tr:last-child td:last-child{
+    border-bottom-right-radius: 50px;
+}
+table.spdTable tbody tr:last-child td:first-child{
+    border-bottom-left-radius: 50px;
+}
+
