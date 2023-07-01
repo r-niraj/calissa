@@ -110,7 +110,7 @@ footer .content .link-boxes .box {
 .treeFooter {
     width: 423px;
     height: 457px;
-    background-image: url(img/Tree_Illustration.png);
+    background-image: url(../img/Tree_Illustration.png);
     position: absolute;
     bottom: 0;
     background-size: contain;
@@ -218,7 +218,7 @@ footer .bottom-details .bottom_text {
 .treeFooter {
     width: 423px;
     height: 457px;
-    background-image: url('img/Tree_Illustration.png');
+    background-image: url('../img/Tree_Illustration.png');
     position: absolute;
     bottom: 0;
     background-size: contain;

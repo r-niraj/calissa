@@ -63,7 +63,7 @@ header{
 }
 
 .header .hamburger{
-   background-image: url('img/HamIco.svg');
+   background-image: url('../img/HamIco.svg');
    width: 30px;
    height: 27px;
    margin-left: 20px;

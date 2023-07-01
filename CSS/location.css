@@ -10,7 +10,7 @@
 .sliderCanvas{
     width: 100%;
     height: calc(100vh / 2.5);
-    background: url('Location/1.jpg');
+    background: url('../Location/1.jpg');
     background-size: cover;
     display: flex;
     align-items: center;
