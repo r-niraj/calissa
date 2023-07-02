@@ -30,7 +30,7 @@ header{
 }
 
 .calissaLogo img{
-    width: 82px;
+    width: 91px;
 }
 
 .header ul.navigation{
@@ -66,13 +66,12 @@ header{
 }
 
 .header .hamburger{
-   background-image: url('../img/HamIco.svg');
-   width: 30px;
+   background-image: url(../img/ham.png);
+   width: 36px;
    height: 27px;
    margin-left: 20px;
    cursor: pointer;
 }
-
 
 header.active__menu{
     position: sticky;

@@ -43,19 +43,21 @@
 }
 
 .menuItems ul li{
-    margin: 15px 0;
+    margin: 2px 0;
     transition: 0.2s all ease-in-out;
     padding-left: 5px;
 }
 
 .menuItems>ul:first-child>li:hover{
-    border-left: 5px solid #000;
+    border-left: 3px solid #000;
     padding-left: 15px;
 }
 
 .menuItems ul li a{
     text-decoration: none;
     color: #000;
+    font-size: 25px;
+    font-weight: 200;
 }
 
 .leftBlurred{
@@ -90,9 +92,17 @@
     font-size: 16px;
 }
 
+.phoneNsocialBlock img{
+    margin: -4px 7px;
+    width: 21px;
+}
 .phoneTextSidebar{
-    font-size: 25px; 
-    margin-left: 30px; 
-    font-weight: 500; 
+    font-size: 22px;
+    margin-left: 10px;
+    font-weight: 200;
     font-family: 'open sans';
+}
+
+.socialBlock{
+    margin-top: 18px;
 }

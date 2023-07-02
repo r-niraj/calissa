@@ -47,11 +47,13 @@ section.sectionFirst{
 
 .blocksWrapperRow .item .top .icon{
     background-color: #fff;
-    padding: 10px;
     border-radius: 22px;
     width: 74px;
     min-width: 74px;
     height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blocksWrapperRow .item .top .icon img{
