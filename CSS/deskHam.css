@@ -29,6 +29,10 @@
     padding: 30px;
     color: #000;
     margin-top: 30px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .menuItems ul{
@@ -44,7 +48,7 @@
     padding-left: 5px;
 }
 
-.menuItems ul li:hover{
+.menuItems>ul:first-child>li:hover{
     border-left: 5px solid #000;
     padding-left: 15px;
 }
@@ -66,4 +70,29 @@
     transition: 0.3s all ease-in-out;
 }
 
+.social-media {
+    display: flex;
+}
 
+.phoneNsocialBlock .social-media div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social-media div i{
+    font-size: 16px;
+}
+
+.phoneTextSidebar{
+    font-size: 25px; 
+    margin-left: 30px; 
+    font-weight: 500; 
+    font-family: 'open sans';
+}
