@@ -52,7 +52,7 @@ $('.hamburger').on('click',function(){
     $('.HamMenuWrapper').css({
         'transform':'translateX(0)',
     });
-    $('header, .contentWrappper,.sixtyFortyWrapper,.swimmingPool,.locationBlocks,.embedMap,.finAssis,.sliderCanvas,.tag-line,.textContenWarpper,.divider,.embedMap,.distanceSection,footer').css('filter','blur(8px)');
+    $('header, .contentWrappper,.sixtyFortyWrapper,.swimmingPool,.locationBlocks,.embedMap,.finAssis,.sliderCanvas,.tag-line,.textContenWarpper,.divider,.embedMap,.distanceSection,.sliderCanvasFeature,.sectionFirst,.sliderCanvasSitePlans,section,.sliderCanvasFloorPlans,.horImageWrapper,.sliderCanvasSpecs,.sliderCanvasGallery,footer').css('filter','blur(8px)');
     $('.leftBlurred').delay(300).fadeIn();
     $('body').css('overflowY','hidden');
 });
@@ -61,7 +61,7 @@ $('.closeIco').on('click',function(){
     $('.HamMenuWrapper').css({
         'transform':'translateX(100%)'
     });
-    $('header, .contentWrappper,.sixtyFortyWrapper,.swimmingPool,.locationBlocks,.embedMap,.finAssis,.sliderCanvas,.tag-line,.textContenWarpper,.divider,.embedMap,.distanceSection,footer').css('filter','blur(0)');
+    $('header, .contentWrappper,.sixtyFortyWrapper,.swimmingPool,.locationBlocks,.embedMap,.finAssis,.sliderCanvas,.tag-line,.textContenWarpper,.divider,.embedMap,.distanceSection,.sliderCanvasFeature,.sectionFirst,.sliderCanvasSitePlans,section,.sliderCanvasFloorPlans,.horImageWrapper,.sliderCanvasSpecs,.sliderCanvasGallery,footer').css('filter','blur(0)');
     $('.leftBlurred').hide();
     $('body').css('overflowY','visible');
     $('.leftBlurred').delay(300).fadeOut();
