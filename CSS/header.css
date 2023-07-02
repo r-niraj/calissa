@@ -66,11 +66,13 @@ header{
 }
 
 .header .hamburger{
-   background-image: url(../img/ham.png);
-   width: 36px;
-   height: 27px;
-   margin-left: 20px;
-   cursor: pointer;
+    background-image: url(../img/ham.png);
+    width: 36px;
+    height: 27px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-top: 6px;
 }
 
 header.active__menu{
