@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="CSS/subMenuNav.css">
     <link rel="stylesheet" href="CSS/sliderCanvas.css">
     <link rel="stylesheet" href="CSS/introduction.css">
+    <link rel="stylesheet" href="CSS/lightbox.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -47,7 +48,7 @@
             </div>
             <div class="rightSection">
                 <ul class="navigation">
-                    <li class="menuItem active">Home</li>
+                    <li class="menuItem active"><a href="index.html">Home</a></li>
                     <li class="menuItem">GA</li>
                 </ul>
                 <div class="hamburger">
@@ -81,10 +82,54 @@
         </p>    
     </div>
     
+    <div class="divider"></div>
     
     
-    
-    
+    <section class="section">
+        <div class="imageWrapper">
+            <div class="leftImage"></div>
+            <div class="rightImage"></div>
+        </div>
+
+        <div class="imageWrapper">
+            <div class="leftImage2"></div>
+            <div class="rightImage2">
+            </div>
+            <a href="Gallery/translucent.png" data-lightbox="models" data-title="Image1">
+                <div class="button">View All <i class="fa-solid fa-arrow-right"></i></div>
+            </a>
+
+            <div class="hidden" style="display: none;">
+                <a href="Gallery/1.jpg" data-lightbox="models" data-title="Image2">
+                    <img src="Gallery/1.jpg">
+                </a>
+                <a href="Gallery/2.jpg" data-lightbox="models" data-title="Image3">
+                    <img src="Gallery/2.jpg">
+                </a>
+                <a href="Gallery/3.jpg" data-lightbox="models" data-title="Image4">
+                    <img src="Gallery/3.jpg">
+                </a>
+                <a href="Gallery/4.jpg" data-lightbox="models" data-title="Image5">
+                    <img src="Gallery/4.jpg">
+                </a>
+                <a href="Gallery/5.jpg" data-lightbox="models" data-title="Image6">
+                    <img src="Gallery/5.jpg">
+                </a>
+                <a href="Gallery/6.jpg" data-lightbox="models" data-title="Image7">
+                    <img src="Gallery/6.jpg">
+                </a>
+                <a href="Gallery/7.jpg" data-lightbox="models" data-title="Image8">
+                    <img src="Gallery/7.jpg">
+                </a>
+                <a href="Gallery/8.jpg" data-lightbox="models" data-title="Image9">
+                    <img src="Gallery/8.jpg">
+                </a>
+                <a href="Gallery/9.jpg" data-lightbox="models" data-title="Image10">
+                    <img src="Gallery/9.jpg">
+                </a>
+            </div>
+        </div>
+    </section>
     
     
   
@@ -98,7 +143,6 @@
             <a href="gallery.html" class="customBtnWidth2" style="background: #EAECE3;">Gallery</a>
         </div>
     </div>
-
 
     <footer id="toForm" class="js-reveal">
         <div class="content">
@@ -277,5 +321,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="JS/headerScroll.js"></script>
     <script src="JS/subMenuNav.js"></script>
+    <script src="JS/lightbox-plus-jquery.js"></script>
 </body>
 </html>

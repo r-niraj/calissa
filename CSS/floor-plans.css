@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.horImageWrapper{
+    display: flex;
+    align-items: center;
+    margin: 0 4%;
+    column-gap: 10px;
+    margin-bottom: 120px;
+}
+
+.horImageWrapper .left,
+.horImageWrapper .right{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.horImageWrapper .left p,
+.horImageWrapper .right p{
+    font-family: unbounded;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.left .imageContainer{
+    background-image: url(../Floor_Plans/2.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right .imageContainer{
+    background-image: url(../Floor_Plans/3.png);
+    height: 450px;
+    border: 1px solid #B0B59E;
+    background-size: contain;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

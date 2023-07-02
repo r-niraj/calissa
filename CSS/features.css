@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+section.sectionFirst{
+    margin-top: 100px;
+}
 .blocksWrapperRow{
     display: flex;
     align-items: center;
@@ -24,10 +28,10 @@
     background-color: #EAECE3;
     border: 1px solid #B0B59E;
     padding: 20px 25px;
-    flex-basis: 350px;
+    flex-basis: 380px;
     border-radius: 30px;
     row-gap: 15px;
-    min-height: 200px;
+    min-height: 218px;
 }
 
 .blocksWrapperRow .item .top{
@@ -46,7 +50,7 @@
 }
 
 .blocksWrapperRow .item .top .icon img{
-    width: 80px;
+    width: 50px;
 }
 
 .blocksWrapperRow .item .bottom{
