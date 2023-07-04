@@ -28,7 +28,7 @@ body{
     flex-basis: 58%;
     background-size: cover;
     border-bottom-right-radius: 30px;
-    /* background-position: -209px 0; */
+    border-top-right-radius: 30px;
     background-repeat: no-repeat;
 }
 
@@ -46,7 +46,7 @@ body{
     height: calc(100vh / 2);
     background-size: cover;
     border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 .bannerSection .bottomImageWrapper {
@@ -55,7 +55,6 @@ body{
     background-size: cover;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
 }
 
 
@@ -80,12 +79,12 @@ body{
 }
 
 .titleTxtLocation{
-    font-size: 18px;
+    font-size: 16px;
     font-family: unbounded;
 }
 
 .descr{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'open sans';
 }
 

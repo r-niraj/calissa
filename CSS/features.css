@@ -5,20 +5,22 @@
 }
 
 section.sectionFirst{
-    margin-top: 100px;
+    width: 1327px;
+    margin: 0 auto;
 }
 .blocksWrapperRow{
     display: flex;
     align-items: center;
-    column-gap: 15px;
-    margin: 0 4% 50px;
-    justify-content: flex-start;
+    column-gap: 30px;
+    margin: 0 3% 50px;
+    justify-content: space-between;
     /* flex-wrap: wrap;
     row-gap: 50px; */
 }
 
 .blocksWrapperRow:last-child{
     margin-bottom: 120px;
+    justify-content: flex-start;
 }
 
 .blocksWrapperRow .item {
@@ -28,7 +30,7 @@ section.sectionFirst{
     background-color: #EAECE3;
     border: 1px solid #B0B59E;
     padding: 20px 25px;
-    flex-basis: 380px;
+    flex-basis: 400px;
     border-radius: 30px;
     row-gap: 15px;
     min-height: 218px;
@@ -59,6 +61,6 @@ section.sectionFirst{
 
 .blocksWrapperRow .item .top .text{
     font-family: unbounded;
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 10px;
 }
