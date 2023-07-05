@@ -30,8 +30,19 @@ body{
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
     background-repeat: no-repeat;
+    position: relative;
 }
 
+.bannerSection .leftImageSec .showAll{
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    background-color: #ffffff8f;
+    border-radius: 40px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-family: "open sans";
+}
 
 .bannerSection .RightImageSec{
     display: flex;
