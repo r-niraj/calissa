@@ -82,19 +82,29 @@ header.active__menu{
     transition: 0.5s all cubic-bezier(0.68, 0.16, 0.01, 0.8);
 }
 
+
+
 .parentWrapperBoud{
-    width: 1350px;
+    width: 1366px;
     margin: 0 auto;
 }
 
 @media only screen and (min-width: 1920){
     .parentWrapperBoud{
-        width: 1350px;
+        width:1366px;
+    }
+    .tagline-wrapper{
+        width: max-content !important;
+        margin:0 auto !important;
     }
 }
 
-@media only screen and (min-width: 1366px){
+@media only screen and (min-width: 1369px){
     .parentWrapperBoud{
-        width: 1350px;
+        width: 1366px;
+    }
+    .tagline-wrapper{
+        width: max-content !important;
+        margin:0 auto !important;
     }
 }
