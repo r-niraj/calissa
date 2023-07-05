@@ -45,6 +45,11 @@ body{
     color: #000;
 }
 
+.fa-solid.fa-arrow-right {
+    transform: rotate(-45deg);
+    margin-left: 10px;
+}
+
 .bannerSection .RightImageSec{
     display: flex;
     flex-direction: column;
