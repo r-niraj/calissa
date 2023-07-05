@@ -10,7 +10,7 @@
 .tagline-wrapper{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 5%;
+    margin-left: 4%;
     row-gap: 5px;
 }
 

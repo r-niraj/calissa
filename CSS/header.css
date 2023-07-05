@@ -81,3 +81,8 @@ header.active__menu{
     transform: translateY(0);
     transition: 0.5s all cubic-bezier(0.68, 0.16, 0.01, 0.8);
 }
+
+.parentWrapperBoud{
+    width: 1350px;
+    margin: 0 auto;
+}
