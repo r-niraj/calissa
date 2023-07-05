@@ -86,3 +86,15 @@ header.active__menu{
     width: 1350px;
     margin: 0 auto;
 }
+
+@media only screen and (min-width: 1920){
+    .parentWrapperBoud{
+        width: 1350px;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .parentWrapperBoud{
+        width: 1350px;
+    }
+}
