@@ -87,11 +87,13 @@ header.active__menu{
 .parentWrapperBoud{
     width: 1366px;
     margin: 0 auto;
+    position: relative;
 }
 
 @media only screen and (min-width: 1920){
     .parentWrapperBoud{
         width:1366px;
+        position: relative;
     }
     .tagline-wrapper{
         width: max-content !important;
@@ -99,9 +101,10 @@ header.active__menu{
     }
 }
 
-@media only screen and (min-width: 1369px){
+@media only screen and (min-width: 1366px){
     .parentWrapperBoud{
-        width: 1366px;
+        width: 1336px;
+        position: relative;
     }
     .tagline-wrapper{
         width: max-content !important;
