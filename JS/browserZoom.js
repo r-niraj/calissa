@@ -36,10 +36,18 @@ if(zoomLevel<100){
         width:"max-content",
         margin:"0 auto"
     });
- } else if(zoomLevel>95){
+} else if(zoomLevel>95){
     $('.tagline-wrapper').css({
         width:"",
         marginLeft: "4%"
     });
+}
+
+if(zoomLevel<95){
+    $('.zsiq_floatmain.zsiq_theme1.siq_bR').hide();
+}else{
+    $('.zsiq_floatmain.zsiq_theme1.siq_bR').show();
  }
 }
+
+
