@@ -241,6 +241,10 @@ footer .bottom-details .bottom_text {
         padding: 0 5%;
     }
 
+    footer .content .link-boxes ul:nth-child(3){
+        margin-left: 5%;
+    }
+
     .phoneText {
         display: none;
     }
