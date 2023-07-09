@@ -106,3 +106,30 @@
 .socialBlock{
     margin-top: 18px;
 }
+
+
+
+@media only screen and (max-width:920px){
+   
+    .header{
+     margin: 0 4%;
+    }
+ 
+    .gaLogo img{
+     width: 100px;
+    }
+    .calissaLogo img{
+     width: 80px;
+    }
+    .header .leftSection{
+     column-gap: 10px;
+    }
+ 
+    .header ul.navigation li.menuItem.active{
+     display: none;
+    }
+ 
+    .HamMenuWrapper{
+     width: 100%;
+    }
+ }

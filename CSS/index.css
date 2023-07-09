@@ -35,8 +35,8 @@ body{
 
 .bannerSection .leftImageSec .showAll{
     position: absolute;
-    bottom: 10px;
-    left: 12px;
+    bottom: 35px;
+    left: 35px;
     background-color: #ffffff8f;
     border-radius: 40px;
     padding: 8px 20px;
@@ -292,4 +292,23 @@ button.readMore{
     display: flex;
     column-gap: 90px;
     justify-content: space-between;
+}
+
+/* mobile UI */
+
+
+@media only screen and (max-width:920px){
+   .parentWrapperBoud{
+    width: 100%;
+    display: none;
+   }
+
+   .contentWrappper .bannerSectionMob{
+    width: 100%;
+    height: 35vh;
+    background: url(../Homepage/Images/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
 }

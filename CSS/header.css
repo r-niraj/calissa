@@ -83,17 +83,18 @@ header.active__menu{
 }
 
 
-
+/* 
 .parentWrapperBoud{
     width: 1366px;
     margin: 0 auto;
     position: relative;
-}
+} */
 
 @media only screen and (min-width: 1920){
     .parentWrapperBoud{
         width:1366px;
         position: relative;
+        margin: 0 auto;
     }
     .tagline-wrapper{
         width: max-content !important;
@@ -105,6 +106,7 @@ header.active__menu{
     .parentWrapperBoud{
         width: 1336px;
         position: relative;
+        margin: 0 auto;
     }
     .tagline-wrapper{
         width: max-content !important;
