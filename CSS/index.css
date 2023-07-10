@@ -23,13 +23,13 @@ body{
 }
 
 .bannerSection .leftImageSec {
-    background-image: url(../Homepage/Images/4.jpg);
-    height: 100%;
+    /* background-image: url(../Homepage/Images/4.jpg); */
+    height: calc(100vh - 79px);
     flex-basis: 58%;
-    background-size: cover;
+    /* background-size: cover; */
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     position: relative;
 }
 
@@ -54,22 +54,22 @@ body{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    height: 100%;
+    height: calc(100vh);
     row-gap: 15px;
 }
 
 .bannerSection .topImageWrapper{
-    background-image: url('../Homepage/Images/1.jpg');
-    height: calc(100vh / 2);
-    background-size: cover;
+    /* background-image: url('../Homepage/Images/1.jpg'); */
+    height: calc(90.2vh / 2);
+    /* background-size: cover; */
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
 }
 
 .bannerSection .bottomImageWrapper {
-    background-image: url(../Homepage/Images/3.jpg);
-    height: calc(100vh / 2);
-    background-size: cover;
+    /* background-image: url(../Homepage/Images/3.jpg); */
+    height: calc(90.2vh / 2);
+    /* background-size: cover; */
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
 }
