@@ -48,3 +48,22 @@ table.spdTable tbody tr:last-child td:last-child{
 table.spdTable tbody tr:last-child td:first-child{
     border-bottom-left-radius: 50px;
 }
+
+@media screen and (max-width:920px){
+    table.spdTable tr th, table.spdTable tr td{
+        padding: 13px;
+    }
+
+    table.spdTable thead tr th:first-child{
+        border-top-left-radius: 30px;
+    }
+    table.spdTable thead tr th:last-child{
+        border-top-right-radius: 30px;
+    }
+    table.spdTable tbody tr:last-child td:first-child{
+        border-bottom-left-radius: 30px;
+    }
+    table.spdTable tbody tr:last-child td:last-child{
+        border-bottom-right-radius: 30px;
+    }
+}

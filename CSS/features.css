@@ -64,3 +64,16 @@ section.sectionFirst{
     font-size: 16px;
     padding-top: 10px;
 }
+
+
+@media only screen and (max-width:920px){
+    .blocksWrapperRow{
+        flex-direction: column;
+        row-gap: 30px;
+        margin: 0 5% 50px;
+    }
+
+    .blocksWrapperRow .item{
+        flex-basis: min-content;
+    }
+}

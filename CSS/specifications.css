@@ -81,3 +81,21 @@ section.sectionFirst{
 }
 
 
+
+@media screen and (max-width:920px){
+    .blocksWrapperRow{
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 0 4%;
+        margin: 0 3% 30px;
+    }
+
+    section.sectionFirst{
+        width: auto;
+    }
+
+    .blocksWrapperRow .item{
+        width: 100%;
+        flex-basis: min-content;
+    }
+}

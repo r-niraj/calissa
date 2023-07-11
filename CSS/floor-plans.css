@@ -45,3 +45,21 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+@media screen and (max-width:920px){
+    .horImageWrapper{
+        flex-direction: column;
+    }
+    .horImageWrapper .left{
+        margin-bottom: 50px;
+    }
+    .horImageWrapper .left, 
+    .horImageWrapper .right{
+        width: 100%;
+    }
+    .horImageWrapper .left p, .horImageWrapper .right p {
+        margin-bottom: 13px;
+    }
+
+}

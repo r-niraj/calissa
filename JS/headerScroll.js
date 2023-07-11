@@ -49,12 +49,33 @@ window.addEventListener("scroll", () => {
 });
 
 $('.hamburger').on('click',function(){
-    $('.HamMenuWrapper').css({
-        'transform':'translateX(0)',
-    });
-    $('header, .contentWrappper,.sixtyFortyWrapper,.swimmingPool,.locationBlocks,.embedMap,.finAssis,.sliderCanvas,.tag-line,.textContenWarpper,.divider,.embedMap,.distanceSection,.sliderCanvasFeature,.sectionFirst,.sliderCanvasSitePlans,section,.sliderCanvasFloorPlans,.horImageWrapper,.sliderCanvasSpecs,.sliderCanvasGallery,footer').css('filter','blur(8px)');
-    $('.leftBlurred').delay(300).fadeIn();
-    $('body').css('overflowY','hidden');
+   
+    if($(window).width()<920 && $('.HamMenuWrapper').css('transform')=='matrix(1, 0, 0, 1, 0, 0)'){
+        $(this).css('background-image',"url('img/ham.png')");
+        $('.HamMenuWrapper').css({
+            'transform':'translateX(100%)'
+        });
+        $('header, .contentWrappper,.sixtyFortyWrapper,.swimmingPool,.locationBlocks,.embedMap,.finAssis,.sliderCanvas,.tag-line,.textContenWarpper,.divider,.embedMap,.distanceSection,.sliderCanvasFeature,.sectionFirst,.sliderCanvasSitePlans,section,.sliderCanvasFloorPlans,.horImageWrapper,.sliderCanvasSpecs,.sliderCanvasGallery,footer').css('filter','blur(0)');
+        $('.leftBlurred').hide();
+        $('body').css('overflowY','visible');
+        $('.leftBlurred').delay(300).fadeOut();
+
+
+        $('.parentWrapperBoud').show();
+    }
+    else{
+        $('.HamMenuWrapper').css({
+            'transform':'translateX(0)',
+        });
+        $('header, .contentWrappper,.sixtyFortyWrapper,.swimmingPool,.locationBlocks,.embedMap,.finAssis,.sliderCanvas,.tag-line,.textContenWarpper,.divider,.embedMap,.distanceSection,.sliderCanvasFeature,.sectionFirst,.sliderCanvasSitePlans,section,.sliderCanvasFloorPlans,.horImageWrapper,.sliderCanvasSpecs,.sliderCanvasGallery,footer').css('filter','blur(8px)');
+        $('.leftBlurred').delay(300).fadeIn();
+        $('body').css('overflowY','hidden');
+
+        if($(window).width()<920){
+            $('.parentWrapperBoud').hide();
+            $(this).css('background-image',"url('img/close.png')")
+        }
+    }
 });
 
 $('.closeIco').on('click',function(){

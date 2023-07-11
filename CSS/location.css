@@ -115,3 +115,16 @@
     width: 59px;
     padding-top: 49px;
 }
+
+
+@media only screen and (max-width:920px){
+    .iconWrapperRow{
+        flex-wrap: wrap !important;
+        row-gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .iconWrapperRow .item{
+        flex-basis: 48%;
+    }
+}

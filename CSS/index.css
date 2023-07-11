@@ -102,6 +102,7 @@ body{
 .sixtyFortyWrapper .childTwo{
     flex-grow: 1;
     padding-top: 80px;
+    width: 100%;
 }
 
 .childOne .descrTxt{
@@ -123,6 +124,7 @@ button.readMore{
     border-radius: 27px;
     cursor: pointer;
     font-family: 'open sans';
+    display: none;
 }
 .curveDescrWrapper{
     margin-bottom: 19px;
@@ -294,7 +296,6 @@ button.readMore{
 @media only screen and (max-width:920px){
    .parentWrapperBoud{
     width: 100%;
-    display: none;
    }
 
    .contentWrappper .bannerSectionMob{
@@ -305,4 +306,91 @@ button.readMore{
     background-repeat: no-repeat;
     background-position: center;
    }
+
+   .sixtyFortyWrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+   }
+
+  .childOne button.readMore{
+    display: none;
+   }
+
+   .curveDescrWrapper .leftCurve,
+   .curveDescrWrapper .rightCurve{
+    column-gap: 0;
+    border: 1px solid #C7CCB3;
+    background: #EAECE3;
+    padding: 0px 10px;
+    border-radius: 30px;
+    padding-right: 6px;
+    min-width: calc(100vw / 2.2);
+    font-family: 'open sans';
+    font-size: 14px;
+   }
+
+   .curveDescrWrapper{
+    justify-content: flex-start;
+   }
+   .leftCurve img, .rightCurve img{
+    width: 20px;
+   }
+   .imgIcoWrapper {
+        padding:6px;
+        margin: 3px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sixtyFortyWrapper .childTwo {
+        flex-grow: 1;
+        padding-top: 20px;
+    }
+
+    .parentWrapperBoud .sixtyFortyWrapper{
+        margin-bottom: 20px;
+    }
+    .swimmingPool .imgContainer {
+        border-radius: 15px;
+        height: 200px;
+    }
+    .swimmingPool .logo img{
+        width: 80px;
+    }
+
+    .locationBlocks .rowWrapper{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    
+    .locationBlocks .rowWrapper .item{
+        margin-bottom: 15px;
+        padding: 8px 20px;
+        border-radius: 20px;
+    }
+
+    .mapContainer{
+        padding-top: 8%;
+    }
+    .mapContainer .locationTxt{
+        display: none;
+    }
+  
+    .finAssis{
+        padding: 50px 34px;
+        border-radius: 20px;
+    }
+
+    .logoWrapper {
+        margin-top: 53px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logoWrapper .item img{
+        width: 120px;
+    }
 }
