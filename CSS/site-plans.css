@@ -66,4 +66,7 @@ table.spdTable tbody tr:last-child td:first-child{
     table.spdTable tbody tr:last-child td:last-child{
         border-bottom-right-radius: 30px;
     }
+    .spdTxt{
+        margin-bottom: 30px;
+    }
 }

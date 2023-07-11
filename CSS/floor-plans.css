@@ -62,4 +62,9 @@
         margin-bottom: 13px;
     }
 
+    .left .imageContainer,.right .imageContainer{
+        height: 300px;
+    }
+
+
 }
