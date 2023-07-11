@@ -23,7 +23,7 @@ body{
 }
 
 .bannerSection .leftImageSec {
-    height: calc(100vh - 79px + 15px);
+    height: calc(100vh - 92px + 15px);
     flex-basis: 58%;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
@@ -51,7 +51,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    height: calc(100vh - 79px);
+    height: calc(100vh - 92px);
     row-gap: 15px;
     box-sizing: border-box;
 }
