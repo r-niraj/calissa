@@ -60,7 +60,7 @@ $('.hamburger').on('click',function(){
         $('body').css('overflowY','visible');
         $('.leftBlurred').delay(300).fadeOut();
 
-
+        $('.stickyFooter.mobile').css('background-color','#EAECE3');
         $('.parentWrapperBoud').show();
     }
     else{
@@ -73,7 +73,8 @@ $('.hamburger').on('click',function(){
 
         if($(window).width()<920){
             $('.parentWrapperBoud').hide();
-            $(this).css('background-image',"url('img/close.png')")
+            $(this).css('background-image',"url('img/close.png')");
+            $('.stickyFooter.mobile').css('background-color','#fff');
         }
     }
 });

@@ -85,6 +85,9 @@ section.sectionFirst{
 @media screen and (max-width:920px){
     .blocksWrapperRow{
         flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        
         row-gap: 30px;
         padding: 0 4%;
         margin: 0 3% 30px;

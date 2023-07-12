@@ -69,4 +69,8 @@ table.spdTable tbody tr:last-child td:first-child{
     .spdTxt{
         margin-bottom: 30px;
     }
+
+    .textContenWarpper{
+        margin-bottom: 30px !important;
+    }
 }
