@@ -148,8 +148,13 @@
         border-top-right-radius: 20px;
         z-index: 12;
         transition: 0.3s all ease-in-out;
+        font-family: 'open sans';
     }
 
+    span.phoneTextSidebar a{
+        color: #000 !important;
+        text-decoration: none;
+    }
     .stickyFooter.mobile .item {
         font-size: 16px;
     }
@@ -160,11 +165,11 @@
     }
 
     .menuItems{
-        height: 90vh;
+        height: calc(100vh - 16%);
         font-family: 'open sans';
     } 
     .menuItems ul{
-        margin-top: 70px;
+        margin-top: 13%;
     }
     .menuItems ul.social-media{
         margin-top: 0;
