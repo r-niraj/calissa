@@ -70,10 +70,28 @@ section.sectionFirst{
     .blocksWrapperRow{
         flex-direction: column;
         row-gap: 30px;
-        margin: 0 5% 50px;
+        margin: 0 5% 30px 5%;
     }
 
     .blocksWrapperRow .item{
         flex-basis: min-content;
+    }
+
+
+    .blocksWrapperRow .item.one,
+    .blocksWrapperRow .item.two,
+    .blocksWrapperRow .item.three,
+    .blocksWrapperRow .item.four,
+    .blocksWrapperRow .item.six,
+    .blocksWrapperRow .item.seven,
+    .blocksWrapperRow .item.eight,
+    .blocksWrapperRow .item.nine,
+    .blocksWrapperRow .item.ten,
+    .blocksWrapperRow .item.elev{
+        flex-basis: 218px;
+    }
+    
+    .blocksWrapperRow .item.five{
+        flex-basis: 236px;
     }
 }

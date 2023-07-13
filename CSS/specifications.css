@@ -99,6 +99,28 @@ section.sectionFirst{
 
     .blocksWrapperRow .item{
         width: 100%;
-        flex-basis: min-content;
     }
+    .blocksWrapperRow .item.one,
+    .blocksWrapperRow .item.two,
+    .blocksWrapperRow .item.three{
+        flex-basis: 254px;
+    }
+    
+    .blocksWrapperRow .item.four{
+        flex-basis: 289px;
+    }
+    .blocksWrapperRow .item.five{
+        flex-basis: 310px;
+    }
+    .blocksWrapperRow .item.six{
+        flex-basis: 348px;
+    }
+    .blocksWrapperRow .item.seven{
+        flex-basis: 374px;
+    }
+    .blocksWrapperRow .item.eight,
+    .blocksWrapperRow .item.nine{
+        flex-basis: 216px;
+    }
+
 }
