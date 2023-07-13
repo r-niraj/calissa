@@ -98,11 +98,12 @@ section.sectionFirst{
 
     .blocksWrapperRow .item{
         width: 100%;
+        padding: 20px 25px 0 25px;
     }
     .blocksWrapperRow .item.one,
     .blocksWrapperRow .item.two,
     .blocksWrapperRow .item.three{
-        flex-basis: 255px;
+        flex-basis: 260px;
     }
     
     .blocksWrapperRow .item.four{
@@ -115,11 +116,13 @@ section.sectionFirst{
         flex-basis: 383px;
     }
     .blocksWrapperRow .item.seven{
-        flex-basis: 415px;
+        flex-basis: 410px;
     }
-    .blocksWrapperRow .item.eight,
+    .blocksWrapperRow .item.eight{
+        flex-basis: 195px;
+    }
     .blocksWrapperRow .item.nine{
-        flex-basis: 172px;
+        flex-basis: 158px;
     }
 
 }
