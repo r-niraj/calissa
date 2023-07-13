@@ -37,7 +37,6 @@ section.sectionFirst{
     flex-basis: 380px;
     border-radius: 30px;
     row-gap: 15px;
-    min-height: 218px;
 }
 
 .blocksWrapperRow .item .top{
@@ -103,24 +102,24 @@ section.sectionFirst{
     .blocksWrapperRow .item.one,
     .blocksWrapperRow .item.two,
     .blocksWrapperRow .item.three{
-        flex-basis: 254px;
+        flex-basis: 260px;
     }
     
     .blocksWrapperRow .item.four{
         flex-basis: 289px;
     }
     .blocksWrapperRow .item.five{
-        flex-basis: 310px;
+        flex-basis: 340px;
     }
     .blocksWrapperRow .item.six{
-        flex-basis: 348px;
+        flex-basis: 383px;
     }
     .blocksWrapperRow .item.seven{
-        flex-basis: 374px;
+        flex-basis: 415px;
     }
     .blocksWrapperRow .item.eight,
     .blocksWrapperRow .item.nine{
-        flex-basis: 216px;
+        flex-basis: 172px;
     }
 
 }
