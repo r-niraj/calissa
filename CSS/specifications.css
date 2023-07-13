@@ -102,7 +102,7 @@ section.sectionFirst{
     .blocksWrapperRow .item.one,
     .blocksWrapperRow .item.two,
     .blocksWrapperRow .item.three{
-        flex-basis: 260px;
+        flex-basis: 255px;
     }
     
     .blocksWrapperRow .item.four{
